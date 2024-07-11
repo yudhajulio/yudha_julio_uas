@@ -1,0 +1,51 @@
+name: uas_maulana
+description: "Klinik Cahya Amalia Mobile Application"
+publish_to: none
+
+version: 1.0.0+1
+
+environment:
+  sdk: '3.4.0'
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+dependency_overrides:
+  vm_service: ^14.2.4
+
+
+dependencies:
+  flutter:
+    sdk: flutter
+  shared_preferences: ^2.0.6
+  http: ^1.2.1
+  intl: ^0.19.0
+  marquee: ^2.2.3
+
+flutter:
+  assets:
+    - assets/images/avatar.png
+    - assets/images/icon1.png
+    - assets/images/icon2.png
+    - assets/images/back.png
+    - assets/images/lock.png
+    - assets/images/delete.png
+    - assets/images/ebengkel.png
+    - assets/images/mekanik.png
+    - assets/images/montir1.png
+    - assets/images/montir2.png
+    - assets/images/montir3.png
+    - assets/images/montir4.png
+    - assets/images/montir5.png
+    - assets/images/montir6.png
+    - assets/images/orang.png
+    - assets/images/profil.png
+    - assets/images/regist1.png
+    - assets/images/warna.png
+    - assets/images/warna2.png
+    - assets/images/buku.png
+    - assets/images/bengkel.jpeg
+    - assets/images/oli.png
+
+
+
